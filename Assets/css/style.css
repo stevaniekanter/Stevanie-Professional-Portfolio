@@ -99,6 +99,7 @@ h2 {
     display: inline;
     position: right;
     float: right;
+    flex-wrap: wrap;
 }
 
 .coming-soon {
@@ -116,7 +117,6 @@ h2 {
     width: 900px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     margin-left: 400px;
     padding: 10px;
     border-color: blueviolet;
@@ -171,4 +171,21 @@ footer {
     color: var(--purple);
     text-decoration: none;
     transition: background-size 0.2s;
+}
+
+.container {
+    position:relative;
+    text-align: center;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: -140px;
+    left: 16px;
+    margin-left: 400px;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    color:var(--purple);
+    background-color: rgb(193, 131, 212);
 }
